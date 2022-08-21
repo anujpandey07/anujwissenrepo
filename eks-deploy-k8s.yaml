@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wissen-docker-ecr-repo
-        image: 303486850858.dkr.ecr.ap-south-1.amazonaws.com/wissen-docker-ecr-repo:latest:latest
+        image: 303486850858.dkr.ecr.ap-south-1.amazonaws.com/wissen-docker-ecr-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
