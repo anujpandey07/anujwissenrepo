@@ -15,7 +15,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: wissen-docker-ecr-repo
         image: 303486850858.dkr.ecr.ap-south-1.amazonaws.com/wissen-docker-ecr-repo:latest:latest
         imagePullPolicy: Always
         ports:
